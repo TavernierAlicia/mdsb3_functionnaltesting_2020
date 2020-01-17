@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="uber"
+    errors="0" failures="1" hostname="" id="" package="uber" skipped="9"
+    tests="1" time="7.334" timestamp="">
+  
+    <testcase name="Open Uber Website" classname="uber" time="7.334" assertions="2">
+
+      <failure message="Testing if element [0;33m&lt;head&gt;[0m is visible in 5000ms - expected [0;32m&#34;is visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m [0;90m(5349ms)[0m">    at DescribeInstance.&lt;anonymous&gt; (/mnt/c/Users/User/Documents/Cours/qualite_tests/eval/mdsb3_functionnaltesting_2020/tests/uber.js:9:15)
+    at process._tickCallback (internal/process/next_tick.js:178:7)</failure>
+
+    <failure message="    at DescribeInstance.&lt;anonymous&gt; (/mnt/c/Users/User/Documents/Cours/qualite_tests/eval/mdsb3_functionnaltesting_2020/tests/uber.js:9:15)">    at process._tickCallback (internal/process/next_tick.js:178:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Check block login in the header wrapper" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check login in two sections" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check login chauffeur section" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check login passager section" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check registration block in two sections" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check registration block with devenir professionnal section" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Check registration block with commander une course action" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Registration with commander une course section shouldn&#39;t pass" classname="uber">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Registration should pass" classname="uber">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
