@@ -1,0 +1,22 @@
+{
+  "src_folders": [
+    "tests"
+  ],
+  "webdriver": {
+    "start_process": false,
+    "server_path": "node_modules/.bin/chromedriver",
+    "port": 9515
+  },
+  "test_settings": {
+    "default": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "browserstack.user": "aliciatavernier1",
+        "browserstack.key": "sMxnx4Cq5czqfCqyTbfA",
+        "browserstack.local": true,
+        "browser": "chrome",
+        "name": "Bstack-[Nightwatch] Local Test"
+      }
+    }
+  }
+}
